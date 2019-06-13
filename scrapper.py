@@ -41,6 +41,6 @@ for data in content.findAll('div', attrs={"class":"speaker-expand clearfix"}):
 		fb=i
 
 
-  #writing the data on csv file
+	#writing the data on csv file
 	l=[name,pic,designation,company,l_url,t_url,wiki,fb]
 	f.writerow(l
