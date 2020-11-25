@@ -43,4 +43,4 @@ for data in content.findAll('div', attrs={"class":"speaker-expand clearfix"}):
 
 	#writing the data on csv file
 	l=[name,pic,designation,company,l_url,t_url,wiki,fb]
-	f.writerow(l
+	f.writerow(l)
